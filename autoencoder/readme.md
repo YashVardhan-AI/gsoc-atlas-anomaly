@@ -54,6 +54,11 @@ The pipeline expects a `train/` directory for baselines and a root-level test fi
 ├── test.txt      # Evaluation data (Normal + Injected Anomalies)
 ├── anomaly.py # The Python/TensorFlow pipeline for traing and inference
 ```
+## Results
 
-## AI-usage 
-Ai was used for writing the plotting code and copilot was on while writing the code also the idea of dynamic threshhold was given by ai. It was also used in writting the readme.
+![System Memory Usage vs. Anomaly Detection](./Figure_1.png)
+The graph above shows the system's memory usage (in blue) and the corresponding anomaly detection signal (in orange). The orange line represents the reconstruction error, and the red dashed line indicates the 99th percentile threshold. Whenever the orange line crosses above the red dashed line, it indicates an anomaly has been detected.
+
+
+## AI Usage
+AI was used to help write the plotting code and improve this README. Copilot was enabled during development, and the idea of a dynamic threshold was also suggested by AI.

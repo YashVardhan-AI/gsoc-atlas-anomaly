@@ -27,5 +27,5 @@ The script's sensitivity can be tuned using two primary variables:
 ## Output
 When executed, the script processes the logs and generates a `matplotlib` visualization. The normal `pss` memory curve is plotted in blue, with all detected anomalies distinctly overlaid as red dots for quick visual inspection.
 
-##AI-use
+## AI-use
 other than the data engineering part ai was used in the plotting code and for helping write the readme file.

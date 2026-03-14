@@ -11,6 +11,9 @@ In isolation forest a single run of the mem-burner was used for 4000 seconds(app
 In autoencoder 5 different runs were made at different levels of memory usage to give the model idea about multiple possible normal values.
 Data_none - baseline
 Data_1 - low
+
 Data_2 - medium
+
 Data_3 - high
+
 Data_4 - low

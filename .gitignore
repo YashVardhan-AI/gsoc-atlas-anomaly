@@ -1,0 +1,6 @@
+# Ignore the autoencoder model file
+
+autoencoder/autoencoder_model.h5
+
+#ignore the .vscode folder
+.vscode/
